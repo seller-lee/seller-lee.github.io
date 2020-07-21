@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Seller.Lee`,
     name: `Seller.Lee`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    siteUrl: `https://seller-lee.github.io/`,
+    description: `Seller. Lee의 기술 블로그입니다.`,
     hero: {
       heading: `중고 거래를 더 쉽고 간편하게 도와드릴게요, 당신의 비서 Seller. Lee`,
       maxWidth: 640,
@@ -11,7 +11,7 @@ module.exports = {
     social: [
       {
         name: `github`,
-        url: `https://github.com/seller-lee-company`,
+        url: `https://github.com/seller-lee`,
       },
     ],
   },
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Seller. Lee Tech Blog`,
+        short_name: `Seller. Lee`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
