@@ -125,14 +125,18 @@ const logoDesktop = styled.h2`
 const logoMobile = styled.h4`
   font-weight: 900;
   color: darkgrey;
-  font-family: "Noto Sans KR";
+  font-family: "Noto Sans KR", sans-serif;
   
   word-break: keep-all;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.45;
 
+  ${mediaqueries.tablet`
+    font-size: 22px;
+  `};
+
   ${mediaqueries.phablet`
-    font-size: 16px;
+    font-size: 20px;
   `};
 `;
 
