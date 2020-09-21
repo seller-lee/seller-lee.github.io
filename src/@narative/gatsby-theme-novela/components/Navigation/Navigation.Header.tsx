@@ -167,7 +167,7 @@ const BackArrowIconContainer = styled.div`
 const NavContainer = styled.div`
   position: relative;
   z-index: 100;
-  padding-top: 100px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
 
