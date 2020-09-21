@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `직고래 기술 블로그`,
-    name: `직고래 기술 블로그`,
+    name: `Jikgorae`,
     siteUrl: `https://seller-lee.github.io/`,
     description: `직고래의 기술 블로그입니다.`,
     hero: {
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Seller. Lee Tech Blog`,
-        short_name: `Seller. Lee`,
+        name: `Jikgorae`,
+        short_name: `Jikgorae`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
