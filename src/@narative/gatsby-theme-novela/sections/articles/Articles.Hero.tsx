@@ -107,7 +107,7 @@ const GridControlsContainer = styled.div`
 `;
 
 const HeadingContainer = styled.div`
-  margin: 100px 0;
+  margin: 60px 0;
 
   ${mediaqueries.desktop`
     width: 80%;
@@ -120,21 +120,23 @@ const HeadingContainer = styled.div`
 
 const HeroHeading = styled.h1`
   font-style: normal;
-  font-weight: 600;
-  font-size: 52px;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 1.15;
-  color: ${p => p.theme.colors.primary};
+  // color: ${p => p.theme.colors.primary};
+  color: gray;
 
   a {
-    color: ${p => p.theme.colors.accent};
+    // color: ${p => p.theme.colors.accent};
+     color: gray;
   }
 
   ${mediaqueries.desktop`
-    font-size: 38px
+    font-size: 24px
   `}
 
   ${mediaqueries.phablet`
-    font-size: 32px;
+    font-size: 22px;
   `}
 `;
 
