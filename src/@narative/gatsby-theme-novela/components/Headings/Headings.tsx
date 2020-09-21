@@ -101,7 +101,30 @@ const h6 = styled.h6`
 
 const logoDesktop = styled.h2`
   font-weight: 900;
-  color: darkgrey;
+  color: #395FC1;
+  font-family: "Noto Sans KR";
+  
+  word-break: keep-all;
+  font-size: 32px;
+  line-height: 1.333;
+
+  ${mediaqueries.desktop`
+    font-size: 21px;
+  `};
+
+  ${mediaqueries.tablet`
+    font-size: 24px;
+    line-height: 1.45;
+  `};
+
+  ${mediaqueries.phablet`
+    font-size: 22px;
+  `};
+`;
+
+const logoDesktopSub = styled.h2`
+  font-weight: 600;
+  color: lightgray;
   font-family: "Noto Sans KR";
   
   word-break: keep-all;
@@ -124,7 +147,25 @@ const logoDesktop = styled.h2`
 
 const logoMobile = styled.h4`
   font-weight: 900;
-  color: darkgrey;
+  color: #395FC1;
+  font-family: "Noto Sans KR", sans-serif;
+  
+  word-break: keep-all;
+  font-size: 24px;
+  line-height: 1.45;
+
+  ${mediaqueries.tablet`
+    font-size: 22px;
+  `};
+
+  ${mediaqueries.phablet`
+    font-size: 20px;
+  `};
+`;
+
+const logoMobileSub = styled.h4`
+  font-weight: 600;
+  color: lightgray;
   font-family: "Noto Sans KR", sans-serif;
   
   word-break: keep-all;
@@ -148,5 +189,7 @@ export default {
   h5,
   h6,
   logoDesktop,
-  logoMobile
+  logoDesktopSub,
+  logoMobile,
+  logoMobileSub,
 };
