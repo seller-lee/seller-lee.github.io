@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Seller.Lee`,
-    name: `Seller.Lee`,
+    title: `직고래 기술 블로그`,
+    name: `직고래 기술 블로그`,
     siteUrl: `https://seller-lee.github.io/`,
-    description: `Seller. Lee의 기술 블로그입니다.`,
+    description: `직고래의 기술 블로그입니다.`,
     hero: {
-      heading: `중고 거래를 더 쉽고 간편하게 도와드릴게요, 당신의 비서 Seller. Lee`,
-      maxWidth: 640,
+      heading: `직고래가 겪은 다양한 문제들과 해결 과정 및 개발 문화를 공유하는 기술 블로그입니다.`,
+      maxWidth: 920,
     },
     social: [
       {
