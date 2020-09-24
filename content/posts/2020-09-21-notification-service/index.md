@@ -215,9 +215,9 @@ public class FavoriteCreatedListener {
 
 이벤트로 구현함으로써 `Application layer에 로직 노출` 이라는 불편한 점은 어느정도 해소되었습니다. 하지만 `단일 트랜잭션`이라는 불편한 점은 아직 남아있었습니다.
 
-이것은 [TransactionalEventListener](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/event/TransactionalEventListener.html)를 통해서 해결이 가능했습니다. TransactionalEventListener 역시 Spring 4.2부터 사용할 수 있으며 공식문서를 보면 다음과 같이 나와있습니다.
+이것은 [TransactionalEventListener](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/event/TransactionalEventListener.html)를 통해서 해결이 가능했습니다. 
 
-> An EventListener that is invoked according to a TransactionPhase.
+TransactionalEventListener 역시 Spring 4.2부터 사용할 수 있으며 공식문서를 보면 다음과 같이 나와있습니다. `An EventListener that is invoked according to a TransactionPhase.`
 
 즉, TransactionalEventListener는 [TransactionPhase](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/event/TransactionPhase.html)에 따라 호출되는 이벤트 리스너입니다. TransactionPhase는 쉽게 말해 트랜잭션 이벤트를 적용하는 시점입니다. Enum 클래스이며 다음과 같은 필드를 갖고있습니다.
 
