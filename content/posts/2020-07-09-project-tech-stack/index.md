@@ -2,8 +2,9 @@
 title: 프로젝트 기술 스택 적용기
 author: Yoonseo Nam
 date: 2020-07-09
+hero: ./images/tech-stack.jpg
+slug: /project-tech-stack
 ---
-
 
 # 프로젝트 기술 스택 적용기
 
