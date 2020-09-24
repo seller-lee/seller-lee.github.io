@@ -6,10 +6,6 @@ hero: ./images/tech-stack.jpg
 slug: /project-tech-stack
 ---
 
-# 프로젝트 기술 스택 적용기
-
-
-
 ## 들어가며
 
 안녕하세요. 셀러리  컴퍼니의 팀장 터틀입니다.
