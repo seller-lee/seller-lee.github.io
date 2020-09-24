@@ -3,6 +3,7 @@ title: 리팩토링 일기 - REST API
 author: Gyeongjun Kim
 date: 2020-09-01
 hero: ./images/hero.png
+slug: /rest-api
 ---
 
 안녕하세요. 셀러리 컴퍼니에서 [직고래](https://play.google.com/store/apps/details?id=com.sellerleecompany.jikgorae)를 개발하고 있는 코즈입니다.
