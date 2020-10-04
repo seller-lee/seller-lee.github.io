@@ -23,6 +23,7 @@ const icons = {
   github: Icons.Github,
   stackoverflow: Icons.Stackoverflow,
   youtube: Icons.YouTube,
+  lxxjn0dev: Icons.DevTo,
   medium: Icons.Medium,
   notion: Icons.Notion,
   unsplash: Icons.Unsplash,
@@ -35,7 +36,7 @@ const icons = {
 };
 
 const getHostname = url => {
-  return new URL(url.toLowerCase()).hostname.replace(/www|com|net|\.so|org|[.-]/g,'').split('.')[0];
+  return new URL(url.toLowerCase()).hostname.replace(/www|com|netlify|net|app|\.so|org|[.-]/g,'').split('.')[0];
 };
 
 const getServicename = url => {
