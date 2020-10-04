@@ -53,7 +53,7 @@ const h2 = styled.h2`
 
 const h3 = styled.h3`
   word-break: keep-all;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.45;
   ${commonStyles};
 
@@ -68,7 +68,7 @@ const h3 = styled.h3`
 
 const h4 = styled.h4`
   word-break: keep-all;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.45;
   ${commonStyles};
 
