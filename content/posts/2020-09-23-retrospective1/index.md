@@ -1,6 +1,6 @@
 ---
 title: 팀 프로젝트가 나에게 남긴 것 1
-author: Sorin Jin, Yoonseo Nam
+author: Jikgorae, Sorin Jin, Yoonseo Nam
 date: 2020-09-23
 hero: ./images/hero.jpeg
 slug: /retrospective1

@@ -1,6 +1,6 @@
 ---
 title: 팀 프로젝트가 나에게 남긴 것 2
-author: Gyeongjun Kim, Eunseok Cheong, Junyoung Lee
+author: Jikgorae, Gyeongjun Kim, Eunseok Cheong, Junyoung Lee
 date: 2020-09-23
 hero: ./images/hero.jpeg
 slug: /retrospective2
