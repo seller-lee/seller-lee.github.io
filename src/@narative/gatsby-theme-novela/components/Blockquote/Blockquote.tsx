@@ -4,7 +4,7 @@ import mediaqueries from "@styles/media";
 const Blockquote = styled.blockquote`
   transition: ${p => p.theme.colorModeTransition};
   margin: 15px auto 50px;
-  color: ${p => p.theme.colors.articleText};
+  color: ${p => p.theme.colors.blockquoteText};
   font-family: ${p => p.theme.fonts.serif};
   font-style: italic;
   ${mediaqueries.tablet`
@@ -12,6 +12,7 @@ const Blockquote = styled.blockquote`
   `};
 
   & > p {
+    color: ${p => p.theme.colors.blockquoteText};
     font-family: ${p => p.theme.fonts.serif};
     max-width: 880px !important;
     padding-right: 100px;
@@ -24,7 +25,7 @@ const Blockquote = styled.blockquote`
 
     ${mediaqueries.tablet`
       font-size: 13px;
-      padding: 0 180px;
+      padding: 0 40px;
     `};
 
     ${mediaqueries.phablet`

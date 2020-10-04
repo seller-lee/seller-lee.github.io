@@ -11,6 +11,7 @@ export default {
   hover: "rgba(0, 0, 0, 0.07)",
   gradient: "linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%)",
   articleText: "#08080B",
+  blockquoteText: "#6d6d6d",
   track: "rgba(8, 8, 11, 0.3)",
   progress: "#000",
   card: "#fff",
