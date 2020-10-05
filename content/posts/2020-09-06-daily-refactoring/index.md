@@ -2,7 +2,7 @@
 title: 리팩토링 일기 - CQRS
 author: Gyeongjun Kim
 date: 2020-09-06
-hero: ./images/hero1.png
+hero: ./images/hero.jpg
 slug: /refactoring-cqrs
 ---
 
