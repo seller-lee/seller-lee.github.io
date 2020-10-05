@@ -214,6 +214,10 @@ slug: /java-code-coverage-tool-part1
 
 기대해주세요!!! 🤩
 
+### 관련 포스팅
+
+- [코드 커버리지 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)
+
 ### 참고 링크
 
 - [코드 커버리지 - 위키백과]([https://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%EC%BB%A4%EB%B2%84%EB%A6%AC%EC%A7%80](https://ko.wikipedia.org/wiki/코드_커버리지))
