@@ -728,6 +728,8 @@ jacocoTestReport {
 드디어 기나긴 여정이 끝났습니다! 지금까지의 모든 설정을 적용한 gradle.build 파일은 아래와 같습니다.
 
 ```java
+...
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'org.springframework.boot'
@@ -789,13 +791,13 @@ subprojects {
                 limit {
                     counter = 'LINE'
                     value = 'COVEREDRATIO'
-                    minimum = 0.80
+                    minimum = 0.00
                 }
 
                 limit {
                     counter = 'BRANCH'
                     value = 'COVEREDRATIO'
-                    minimum = 0.80
+                    minimum = 0.00
                 }
 
                 excludes = [] + Qdomains
@@ -803,6 +805,8 @@ subprojects {
         }
     }
 }
+
+...
 ```
 
 현재 저희 프로젝트에서는 테스트 커버리지를 만족하지 못하는 클래스가 존재하기 때문에 **빌드가 실패**합니다. 그런데 gradle의 Task는 하나의 테스크가 실패하면 뒤에 실행되야 할 나머지 Task가 실행되지 않습니다.
