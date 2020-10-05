@@ -38,6 +38,8 @@ slug: /java-code-coverage-tool-part1
 
 지금부터 소개할 코드 커버리지는 이러한 우리의 **불안감을 해소**해 줄 수 있을 것입니다.
 
+---
+
 ## 코드 커버리지(*Code Coverage*)란?
 
 ### 코드 커버리지(*Code Coverage*)
@@ -157,6 +159,8 @@ slug: /java-code-coverage-tool-part1
 
 이처럼 코드 커버리지는 **코드의 안정성을 어느 정도 보장해 줄 수 있는 지표**이기 때문에 많은 프로젝트에서 커버리지를 확인하고 관리, 적용하려고 노력합니다.
 
+---
+
 ## 자바 코드 커버리지
 
 저희 [직고래](https://play.google.com/store/apps/details?id=com.sellerleecompany.jikgorae)는 자바 기반의 프레임워크인 [스프링 부트](https://spring.io/projects/spring-boot)를 사용하고 있습니다.
@@ -197,6 +201,8 @@ slug: /java-code-coverage-tool-part1
 새로운 기술을 처음 도입하는 상황에서 **레퍼런스의 유무**는 정말 중요하다고 생각합니다. 기술을 도입하는 과정에서는 **여러 시행착오들이 발생**하는데, 레퍼런스가 많이 존재한다면 이를 **빠르게 해결할 수 있기 때문**입니다. 그런 부분에서 Jacoco는 적용한 후기나 설명이 다른 도구들에 비해 월등하게 많았습니다.
 
 이러한 이유로 인해 이번 프로젝트에서는 Jacoco를 사용하기로 결정하였습니다.
+
+---
 
 ## 정리하며
 
