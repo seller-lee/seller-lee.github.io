@@ -6,7 +6,7 @@ hero: ./images/hero.jpg
 slug: /java-code-coverage-tool-part2
 ---
 
-안녕하세요. 우아한테크코스 2기, 셀러리 컴퍼니에서 [직고래](https://play.google.com/store/apps/details?id=com.sellerleecompany.jikgorae)를 개발하고 있는 스티치입니다.
+안녕하세요. 우아한테크코스 2기, 셀러리 컴퍼니에서 [직고래](https://sites.google.com/woowahan.com/wooteco-demo/%EC%A7%81%EA%B3%A0%EB%9E%98)를 개발하고 있는 스티치입니다.
 
 ![stitch](./images/stitch.jpg)
 
