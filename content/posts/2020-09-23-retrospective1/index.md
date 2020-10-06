@@ -1,5 +1,5 @@
 ---
-title: 팀 프로젝트가 나에게 남긴 것 - 1편, 또링 / 터틀
+title: 팀 프로젝트가 나에게 남긴 것 - 1편, 또링 | 터틀
 author: Jikgorae, Sorin Jin, Yoonseo Nam
 date: 2020-09-23 10:00:00
 hero: ./images/hero.jpeg

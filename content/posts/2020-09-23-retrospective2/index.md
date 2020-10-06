@@ -1,5 +1,5 @@
 ---
-title: 팀 프로젝트가 나에게 남긴 것 - 2편, 코즈 / 서브웨이 / 스티치
+title: 팀 프로젝트가 나에게 남긴 것 - 2편, 코즈 | 서브웨이 | 스티치
 author: Jikgorae, Gyeongjun Kim, Eunseok Cheong, Junyoung Lee
 date: 2020-09-23 22:00:00
 hero: ./images/hero.jpeg
