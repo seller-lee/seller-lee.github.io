@@ -1,5 +1,5 @@
 ---
-title: 코드 커버리지 분석 도구 적용기 - 2편, JaCoCo 적용하기
+title: 코드 분석 도구 적용기 - 2편, JaCoCo 적용하기
 author: Junyoung Lee
 date: 2020-10-05
 hero: ./images/hero.jpg
@@ -122,7 +122,7 @@ subprojects {
 }
 
 ...
-```  
+```
 
 위 설정을 추가한 후, gradle 새로 고침을 실행하면 의존성이 추가되면서 서브 모듈의 `Tasks/verification`에 JaCoCo의 Task가 추가됩니다.
 
@@ -201,7 +201,7 @@ reports {
         destination file('build/reports/myReport.html')
     }
 }
-``` 
+```
 
 > `destination`은 `File` 타입의 값만 받기 때문에 `file('저장할 디렉토리 경로')`과 같은 형식으로 작성해야 합니다. 
 
@@ -587,7 +587,7 @@ def Qdomains = []
 for (qPattern in '*.QA'..'*.QZ') { // qPattern = '*.QA', '*.QB', ... '*.QZ'
     Qdomains.add(qPattern + '*')
 }
-``` 
+```
 
 위의 코드는 결론적으로 **`'*.QA*'`부터 `'*.QZ*'`까지의 모든 값**을 만들어서 **`Qdomains` 리스트에 저장**합니다(이 코드는 아래의 **리포트를 작성할 때 제외하는 설정**에서도 조금만 변경해서 사용합니다).
 

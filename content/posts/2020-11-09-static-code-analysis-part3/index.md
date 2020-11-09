@@ -1,5 +1,5 @@
 ---
-title: 정적 코드 분석 도구 적용기 - 3편, SonarQube 적용하기
+title: 코드 분석 도구 적용기 - 3편, SonarQube 적용하기
 author: Junyoung Lee
 date: 2020-11-09
 hero: ./images/hero.png

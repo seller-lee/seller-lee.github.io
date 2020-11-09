@@ -1,5 +1,5 @@
 ---
-title: 코드 커버리지 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?
+title: 코드 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?
 author: Junyoung Lee
 date: 2020-10-04
 hero: ./images/hero.jpg
