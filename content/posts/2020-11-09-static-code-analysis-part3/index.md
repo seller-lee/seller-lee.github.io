@@ -10,7 +10,7 @@ slug: /static-code-analysis-part3
 
 ![stitch](./images/stitch.jpg)
 
-[코드 커버리지 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)에 이어서, 이번에는 프로젝트에 **정적 코드 분석 도구인 SonarQube를 어떻게 적용했는지**에 대해 소개해드리도록 하겠습니다.
+[코드 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)에 이어서, 이번에는 프로젝트에 **정적 코드 분석 도구인 SonarQube를 어떻게 적용했는지**에 대해 소개해드리도록 하겠습니다.
 
 ---
 
@@ -377,8 +377,8 @@ SonarQube 프로젝트를 클릭하면 위와 같이 상세한 정보들을 볼 
 
 ### 관련 포스팅
 
-- [코드 커버리지 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)
-- [코드 커버리지 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)
+- [코드 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)
+- [코드 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)
 
 ### 참고 링크 
 

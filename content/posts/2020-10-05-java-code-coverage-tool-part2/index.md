@@ -10,7 +10,7 @@ slug: /java-code-coverage-tool-part2
 
 ![stitch](./images/stitch.jpg)
 
-[코드 커버리지 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)에 이어서, 이번에는 프로젝트에 **코드 커버리지 분석 도구인 JaCoCo를 어떻게 적용했는지**에 대해 소개해드리도록 하겠습니다.
+[코드 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)에 이어서, 이번에는 프로젝트에 **코드 커버리지 분석 도구인 JaCoCo를 어떻게 적용했는지**에 대해 소개해드리도록 하겠습니다.
 
 ---
 
@@ -835,7 +835,8 @@ subprojects {
 
 ### 관련 포스팅
 
-- [코드 커버리지 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)
+- [코드 분석 도구 적용기 - 1편, 코드 커버리지(Code Coverage)가 뭔가요?](https://seller-lee.github.io/java-code-coverage-tool-part1)
+- [코드 분석 도구 적용기 - 3편, SonarQube 적용하기](https://seller-lee.github.io/static-code-analysis-part3) 
 
 ### 참고 링크 
 

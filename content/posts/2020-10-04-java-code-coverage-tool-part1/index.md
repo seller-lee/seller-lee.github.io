@@ -216,7 +216,8 @@ slug: /java-code-coverage-tool-part1
 
 ### 관련 포스팅
 
-- [코드 커버리지 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)
+- [코드 분석 도구 적용기 - 2편, JaCoCo 적용하기](https://seller-lee.github.io/java-code-coverage-tool-part2)
+- [코드 분석 도구 적용기 - 3편, SonarQube 적용하기](https://seller-lee.github.io/static-code-analysis-part3)
 
 ### 참고 링크
 
